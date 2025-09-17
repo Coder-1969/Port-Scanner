@@ -4,7 +4,6 @@ import tcp_scan
 import udp_scan
 import syn_scan
 import ping_scan
-import os_detection
 import banner_grabber
 import threading
 import socket
@@ -149,3 +148,4 @@ ttk.Button(frame, text="Save as TXT", command=lambda: save_results("txt")).grid(
 
 # GUI event loop
 root.mainloop()
+
